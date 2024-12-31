@@ -1,0 +1,44 @@
+appId: API Demos
+---
+- tapOn:
+    id: "com.miui.home:id/icon_icon"
+    index: 0
+- tapOn:
+    id: "android:id/text1"
+    index: 11
+- "scroll"
+- tapOn: "Rotating Button"
+- swipe:
+    from:
+      id: "io.appium.android.apis:id/rotationY"
+    direction: "UP"
+- swipe:
+    from:
+      id: "io.appium.android.apis:id/rotationX"
+    direction: "UP"
+- swipe:
+    from:
+      id: "io.appium.android.apis:id/rotationZ"
+    direction: "UP"
+- swipe:
+    from:
+      id: "io.appium.android.apis:id/translationY"
+    direction: "UP"
+- swipe:
+    from:
+      id: "io.appium.android.apis:id/translationX"
+    direction: "UP"
+- swipe:
+    from:
+      id: "io.appium.android.apis:id/scaleX"
+    direction: "UP"
+- swipe:
+    from:
+      id: "io.appium.android.apis:id/scaleY"
+    direction: "UP"
+- swipe:
+    from:
+      id: "io.appium.android.apis:id/scaleY"
+    direction: "UP"
+- tapOn:
+    id: "com.android.systemui:id/back"
